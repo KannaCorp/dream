@@ -21,6 +21,15 @@
   "downloadUrl": "https://play.google.com/store/apps/details?id=com.kanna.dreaminterpretation",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "author": { "@type": "Organization", "name": "Kannacorp", "url": "https://kannacorp.github.io" }
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What does it mean to dream about falling?","acceptedAnswer":{"@type":"Answer","text":"Dreaming of falling often points to a loss of control, insecurity, or a fear of failing at something that matters to you. The app lets you look up falling and thousands of other symbols, or describe your exact dream for a personal AI reading."}},
+    {"@type":"Question","name":"What does it mean to dream about your teeth falling out?","acceptedAnswer":{"@type":"Answer","text":"It is one of the most common dreams. It usually reflects anxiety about how others see you, a fear of losing control, or a big change you feel unprepared for."}},
+    {"@type":"Question","name":"Is there a free dream interpretation app?","acceptedAnswer":{"@type":"Answer","text":"Yes. Dream Interpreter & AI is free on Google Play, with an A-Z dream dictionary, AI interpretation and a dream journal."}},
+    {"@type":"Question","name":"How does the AI dream interpretation work?","acceptedAnswer":{"@type":"Answer","text":"You describe your dream in your own words and the AI reads the symbols and how they may fit your life. It is for reflection and self-insight, not fortune-telling or professional advice."}},
+    {"@type":"Question","name":"What languages does the app support?","acceptedAnswer":{"@type":"Answer","text":"English, German, Spanish, French, Italian, Portuguese, Russian and Serbian."}}
+  ]
 }
 </script>
 
@@ -145,6 +154,19 @@
     .gcol{flex:none}
   }
   @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto} .js .reveal{transition:none} .cta{transition:none}}
+
+  <style>
+  .faq{padding:74px 0}
+  .faq .wrap{max-width:760px}
+  .faq h2{font-family:var(--serif);font-size:clamp(1.7rem,4.6vw,2.4rem);font-weight:500;text-align:center;margin-bottom:36px}
+  .faq details{border-top:1px solid var(--line);padding:20px 0}
+  .faq details:last-child{border-bottom:1px solid var(--line)}
+  .faq summary{font-family:var(--serif);font-size:1.2rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--accent);font-size:1.4rem;line-height:1}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{color:var(--ink-soft);margin-top:12px;line-height:1.7}
+</style>
 </style>
 </head>
 <body>
@@ -227,6 +249,17 @@
       <span class="cta soon" aria-disabled="true"><img class="badge b-apple" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" width="250" height="83" loading="eager"><span class="soon-chip" data-i18n="soon">Coming soon</span></span>
     </div>
     <span class="cta-note" data-i18n="close_note">Free on Google Play</span>
+  </div>
+</section>
+
+  <section class="faq">
+  <div class="wrap">
+    <h2>Frequently asked questions</h2>
+    <details><summary>What does it mean to dream about falling?</summary><p>Dreaming of falling often points to a loss of control, insecurity, or a fear of failing at something that matters to you. In the app you can look up falling and thousands of other symbols, or describe your exact dream for a personal AI reading.</p></details>
+    <details><summary>What does it mean to dream about your teeth falling out?</summary><p>It's one of the most common dreams. It usually reflects anxiety about how others see you, a fear of losing control, or a big change you feel unprepared for.</p></details>
+    <details><summary>Is there a free dream interpretation app?</summary><p>Yes. Dream Interpreter &amp; AI is free on Google Play. It includes an A–Z dream dictionary, AI interpretation of your own dreams, and a dream journal.</p></details>
+    <details><summary>How does the AI dream interpretation work?</summary><p>You describe your dream in your own words and the AI reads the symbols and how they may fit your life, in seconds. It's for reflection and self-insight — not fortune-telling or professional advice.</p></details>
+    <details><summary>What languages does it support?</summary><p>The app is available in English, German, Spanish, French, Italian, Portuguese, Russian and Serbian.</p></details>
   </div>
 </section>
 
