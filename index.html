@@ -32,17 +32,7 @@
   ]
 }
 </script>
-
-<!-- NAPOMENA (Dream ima 8 jezika na JEDNOM URL-u):
-     Tvoj JS (setLang) na učitavanju menja document.title po jeziku posetioca.
-     To je ok — Google to prikaže lokalizovano. Ali gornji <title> je
-     SEO-podešen (engleski, sa ključnim rečima). Ako želiš da baš taj
-     ostane za engleske pretrage, u JS-u nađi liniju:
-        document.title=t.app_name+' — '+t.hero_title;
-     i za engleski je ostavi ovakvu, ili je ukloni da ostane <title> iz <head>.
-     Pošto je sve na jednom URL-u, Google će uglavnom indeksirati englesku
-     verziju — što je za globalni domet sasvim dobro. -->
-  <meta property="og:title" content="Dream Interpreter &amp; AI">
+<meta property="og:title" content="Dream Interpreter &amp; AI">
 <meta property="og:description" content="Look up any symbol — or let AI interpret your own dream.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
